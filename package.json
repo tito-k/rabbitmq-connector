@@ -1,8 +1,9 @@
 {
   "name": "rabbitmq-connector-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A RabbitMQ Connector for Microservices",
-  "main": "rabbitmq.ts",
+  "main": "./dist/rabbitmq.js",
+  "types": "./dist/rabbitmq.d.ts",
   "scripts": {
     "build": "tsc",
     "lint": "eslint . --ext .ts",
