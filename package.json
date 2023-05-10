@@ -1,0 +1,42 @@
+{
+  "name": "rabbitmq-connector-api",
+  "version": "1.0.0",
+  "description": "A RabbitMQ Connector for Microservices",
+  "main": "rabbitmq.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tito-k/rabbitmq-connector.git"
+  },
+  "keywords": [
+    "RabbitMQ",
+    "Connector",
+    "Microservices",
+    "Gateway"
+  ],
+  "author": "tito-k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tito-k/rabbitmq-connector/issues"
+  },
+  "homepage": "https://github.com/tito-k/rabbitmq-connector#readme",
+  "devDependencies": {
+    "@types/amqplib": "^0.10.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "@typescript-eslint/eslint-plugin": "^5.59.5",
+    "eslint": "^8.40.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
